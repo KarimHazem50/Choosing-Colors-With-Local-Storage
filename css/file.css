@@ -1,0 +1,41 @@
+ul {
+    display: flex;
+    list-style: none;
+    background-color: #ececec;
+    width: fit-content;
+    margin: 50px auto 0;
+    padding: 30px;
+}
+ul li {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+ul li:hover {
+    opacity: 1;
+}
+ul .active {
+    opacity: 1;
+}
+ul li[data-color="red"] {
+    background-color: red;
+}
+ul li[data-color="green"] {
+    background-color: green;
+}
+ul li[data-color="blue"] {
+    background-color: blue;
+}
+ul li[data-color="black"] {
+    background-color: black;
+    margin-right: 0;
+}
+div {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    margin: 20px auto;
+}
